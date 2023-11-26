@@ -4,21 +4,23 @@ using namespace std;
 
 int main()
 {
-    int n;
-    int sum = 0;
+    
+    int n; int product = 1;
     
     cin >> n;
     
     if (n <= 0)
     {
-        cout << "Невозможно посчитать сумму натуральных чисел при n <= 0" << endl;
+        cout << "Невозможно посчитать произведение натуральных чисел при n <= 0" << endl;
     }
     else
     {
         for (int i = 1; i <= n; i++)
         {
-            sum += i;
+            product *= i;
         }
-        cout << sum << endl;
+        cout << product << endl;
     }
+    return 0;
 }
+
