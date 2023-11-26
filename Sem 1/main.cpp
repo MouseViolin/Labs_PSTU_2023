@@ -4,22 +4,16 @@ using namespace std;
 
 int main()
 {
-    int a,b,c, max;
-    
-    cin >> a >> b >> c;
-    if (a>=b)
+    float a,b;
+    cin >> a >> b;
+
+    if (b==0)
     {
-        max = a;
+        cout << "На ноль делить нельзя!" << endl;
     }
     else
     {
-        max = b;
+        cout << a/b << endl;
     }
-    if (c>max)
-    {
-        max = c;
-    }
-    
-    cout << max << endl;
     return 0;
 }
