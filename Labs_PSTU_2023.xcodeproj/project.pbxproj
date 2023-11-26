@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CE23210A2B136D0500963711 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE2321092B136D0500963711 /* main.cpp */; };
-		CE6031C02B137465003CF710 /* 1_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE6031BF2B137465003CF710 /* 1_3.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -117,7 +116,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE23210A2B136D0500963711 /* main.cpp in Sources */,
-				CE6031C02B137465003CF710 /* 1_3.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

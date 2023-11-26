@@ -4,21 +4,21 @@ using namespace std;
 
 int main()
 {
-    float a;
-
-    cin >> a;
-
-    if (a<5)
+    int n;
+    int sum = 0;
+    
+    cin >> n;
+    
+    if (n <= 0)
     {
-        cout << a * 3 << endl;
-    }
-    else if (a>7)
-    {
-        cout << a+3 << endl;
+        cout << "Невозможно посчитать сумму натуральных чисел при n <= 0" << endl;
     }
     else
     {
-        cout << a/10 << endl;
+        for (int i = 1; i <= n; i++)
+        {
+            sum += i;
+        }
+        cout << sum << endl;
     }
-    return 0;
 }
