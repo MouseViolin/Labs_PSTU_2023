@@ -28,6 +28,9 @@
 		CE3F9E1C2B094ABE00E3E6AC /* Labs_PSTU_2023 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Labs_PSTU_2023; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6031C62B13942E003CF710 /* 2_5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = 2_5.cpp; path = "Sem 1/2_5/2_5.cpp"; sourceTree = "<group>"; };
 		CE6031C72B139826003CF710 /* 2_6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = 2_6.cpp; path = "Sem 1/2_6/2_6.cpp"; sourceTree = "<group>"; };
+		CE6031C82B13AFB8003CF710 /* 2_7_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = 2_7_1.cpp; path = "Sem 1/2_7/2_7_1/2_7_1.cpp"; sourceTree = "<group>"; };
+		CE6031C92B13AFDD003CF710 /* 2_7_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = 2_7_2.cpp; path = "Sem 1/2_7/2_7_2/2_7_2.cpp"; sourceTree = "<group>"; };
+		CE6031CA2B13B039003CF710 /* 2_7_3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = 2_7_3.cpp; path = "Sem 1/2_7/2_7_3/2_7_3.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +47,9 @@
 		CE3F9E132B094ABE00E3E6AC = {
 			isa = PBXGroup;
 			children = (
+				CE6031CA2B13B039003CF710 /* 2_7_3.cpp */,
+				CE6031C92B13AFDD003CF710 /* 2_7_2.cpp */,
+				CE6031C82B13AFB8003CF710 /* 2_7_1.cpp */,
 				CE6031C72B139826003CF710 /* 2_6.cpp */,
 				CE6031C62B13942E003CF710 /* 2_5.cpp */,
 				CE2321092B136D0500963711 /* main.cpp */,
