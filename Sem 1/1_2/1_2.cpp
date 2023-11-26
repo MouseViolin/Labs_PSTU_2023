@@ -1,8 +1,19 @@
-//
-//  1_2.cpp
-//  Labs_PSTU_2023
-//
-//  Created by user on 19.11.2023.
-//
+#include <iostream>
 
-#include <stdio.h>
+using namespace std;
+
+int main()
+{
+    float a,b;
+    cin >> a >> b;
+
+    if (b==0)
+    {
+        cout << "На ноль делить нельзя!" << endl;
+    }
+    else
+    {
+        cout << a/b << endl;
+    }
+    return 0;
+}
