@@ -3,16 +3,24 @@ using namespace std;
 
 int main()
 {
-    int n,k, max_first = 0;
+    int n, s = 0;
+    bool flag = false;
+    
     
     cin >> n;
-    for (int i = 0; i < n; i++) {
-        cin >> k;
-        if (k > max_first) {
-            max_first = k;
+    
+    for (int i = 1; i <=n; i++) {
+        if (not(flag)) {
+            s += -1*i;
+            flag = true;
+        } else {
+            s += i;
+            flag = false;
         }
     }
-    cout << max_first << endl;
+        
+    cout << s << endl;
+    
     return 0;
 }
 
