@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE23210A2B136D0500963711 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE2321092B136D0500963711 /* main.cpp */; };
+		CEE489DA2B1A881900241FFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE2321092B136D0500963711 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -98,9 +98,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE6031D32B13B6A8003CF710 /* Build configuration list for PBXNativeTarget "cpp-target" */;
 			buildPhases = (
-				CE6031CB2B13B6A8003CF710 /* Sources */,
 				CE6031CC2B13B6A8003CF710 /* Frameworks */,
 				CE6031CD2B13B6A8003CF710 /* CopyFiles */,
+				CEE489DD2B1A896F00241FFE /* Sources */,
 			);
 			buildRules = (
 			);
@@ -152,11 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE23210A2B136D0500963711 /* main.cpp in Sources */,
+				CEE489DA2B1A881900241FFE /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE6031CB2B13B6A8003CF710 /* Sources */ = {
+		CEE489DD2B1A896F00241FFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -302,16 +302,22 @@
 		CE6031D42B13B6A8003CF710 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "watchsimulator watchos macosx iphonesimulator iphoneos driverkit appletvsimulator appletvos";
+				SUPPORTS_MACCATALYST = YES;
 			};
 			name = Debug;
 		};
 		CE6031D52B13B6A8003CF710 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "watchsimulator watchos macosx iphonesimulator iphoneos driverkit appletvsimulator appletvos";
+				SUPPORTS_MACCATALYST = YES;
 			};
 			name = Release;
 		};

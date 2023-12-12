@@ -1,28 +1,49 @@
 #include <iostream>
+#include <cmath>
+
 using namespace std;
+
+
 
 int main()
 {
-    int n, s = 0;
+    
+    float n, s, a = 0.0;
+    int i = 1;
     bool flag = false;
     
+    cin >> n >> s;
     
-    cin >> n;
-    
-    for (int i = 1; i <=n; i++) {
-        if (not(flag)) {
-            s += -1*i;
+    while (i <= n && !flag)
+    {
+        a = sin(n + i / n);
+        a = round(a*10)/10;
+        
+        
+        if (a == s)
+        {
             flag = true;
-        } else {
-            s += i;
-            flag = false;
+        }
+        else
+        {
+            i++;
         }
     }
-        
-    cout << s << endl;
     
+    if (flag)
+    {
+        cout << "Элемент найден!" << endl;
+        cout << n + i/n << "|" << a << endl;
+    }
+    else
+    {
+        cout << "Элемент не найден!" << endl;
+    }
     return 0;
 }
+
+
+
 
 
 
