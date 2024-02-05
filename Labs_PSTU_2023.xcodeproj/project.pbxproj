@@ -32,9 +32,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CE04C4632B094F8700578BFD /* Sem 1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Sem 1"; sourceTree = "<group>"; };
 		CE2321092B136D0500963711 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "Sem 1/main.cpp"; sourceTree = "<group>"; };
 		CE3F9E1C2B094ABE00E3E6AC /* Labs_PSTU_2023 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Labs_PSTU_2023; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4B51362B5FAB9900BE0BCD /* Sem 2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Sem 2"; sourceTree = "<group>"; };
+		CE4B519C2B5FAC3400BE0BCD /* Sem 1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Sem 1"; sourceTree = "<group>"; };
 		CE6031CF2B13B6A8003CF710 /* cpp-target */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "cpp-target"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -59,8 +60,9 @@
 		CE3F9E132B094ABE00E3E6AC = {
 			isa = PBXGroup;
 			children = (
+				CE4B519C2B5FAC3400BE0BCD /* Sem 1 */,
+				CE4B51362B5FAB9900BE0BCD /* Sem 2 */,
 				CE2321092B136D0500963711 /* main.cpp */,
-				CE04C4632B094F8700578BFD /* Sem 1 */,
 				CE3F9E1D2B094ABE00E3E6AC /* Products */,
 			);
 			sourceTree = "<group>";
