@@ -1,50 +1,31 @@
 #include <iostream>
+
 using namespace std;
 
-int neg_str(int arr[3][3], int num, int size){
-    bool flag = 1;
-    
-    for (int i = 0; i < size; i++) {
-        if (arr[num][i] < 0 ) {
-            flag = 0;
-            break;
-        }
-    }
-    if (!flag) {
-        for (int k = num; k < size-1 ; k++) {
-            
-            for (int j = 0; j < size; j++) {
-                arr[k][j] = arr[k+1][j];
-            }
-            
-        }
-        for (int j = 0; j < size; j++) {
-            arr[size-1][j] = 0;
-        }
-        return -1;
-    } else {return 0;}
-    
-}
-
 int main() {
-    int size;
     
-    cin >> size;
-    int arr[3][3]= {{-1,2,0},{1,-1,1},{3,2, 1}};
-    for (int i = 0; i < size; i++) {
-        i += neg_str(arr, i , size);
+    int str_arr,col_arr,cnt;
+    cin >> str_arr >> col_arr >> cnt;
+    int array[str_arr][col_arr];
+    
+    int num[cnt];
+    for (int i = 0; i < cnt; i++) {
+        num[i] = i+1;
     }
     
-    for (int i = 0; i < size; cout << endl, i++)
-        for (int j = 0; j < size;cout << arr[i][j] << " ", j++);
+    for (int i = 0; i<str_arr; i++) {
+        for (int j = 0; j < col_arr; j++) {
+            array[i][j] = 0;
+        }
+    }
     
-    
-    
-    
-    
-    
-    
-    
+    for (int i = 0, k = 0; i<str_arr; k++, i++) {
+        for (int n = 0; n < col_arr - k; n++) {
+            array[i+n][n] = num[k%cnt] ;
+        }
+    }
+    for (int i = 0; i < str_arr; cout << endl, i++)
+            for (int j = 0; j < col_arr;cout << array[i][j] << " ", j++);
     
     return 0;
 }
