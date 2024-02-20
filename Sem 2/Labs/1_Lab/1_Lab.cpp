@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 
-    int str_arr,col_arr, k = 0, num[9] = {1,2,3,4,5,6,7,8,9};
+    int str_arr,col_arr, num[9] = {1,2,3,4,5,6,7,8,9};
     cin >> str_arr >> col_arr;
     int array[str_arr][col_arr];
     
@@ -11,7 +11,7 @@ int main() {
     int *ptr1 = &array[0][0];
     
     
-    for (int i = 0; i < (str_arr*col_arr); i+=2) {
+    for (int i = 0, k = 0; i < (str_arr*col_arr); i+=2) {
         *ptr1 = num[k%9];
         k++;
         ptr1 +=2;

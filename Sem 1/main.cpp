@@ -1,31 +1,49 @@
 #include <iostream>
-
+#include <ctime>
+int n = 5;
 using namespace std;
 
+void create(int arr[5][5]) {
+    srand((unsigned int)time(0));
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < n; j++)
+        {
+            arr[i][j] = (rand() % (100 - 20 + 1)) + 20;
+        }
+    }
+}
+
+void printArr(int arr[5][5]) {
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < n; j++)
+        {
+            cout << arr[i][j] << ' ';
+        }
+        cout << endl;
+    }
+}
+int check(int arr[5][5])
+{
+    int max = arr[0][0];
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < n; j++)
+        {
+            if (arr[i][j] > max)
+            {
+                max = arr[i][j];
+            }
+        }
+    }
+    return max;
+}
 int main() {
     
-    int str_arr,col_arr,cnt;
-    cin >> str_arr >> col_arr >> cnt;
-    int array[str_arr][col_arr];
-    
-    int num[cnt];
-    for (int i = 0; i < cnt; i++) {
-        num[i] = i+1;
-    }
-    
-    for (int i = 0; i<str_arr; i++) {
-        for (int j = 0; j < col_arr; j++) {
-            array[i][j] = 0;
-        }
-    }
-    
-    for (int i = 0, k = 0; i<str_arr; k++, i++) {
-        for (int n = 0; n < col_arr - k; n++) {
-            array[i+n][n] = num[k%cnt] ;
-        }
-    }
-    for (int i = 0; i < str_arr; cout << endl, i++)
-            for (int j = 0; j < col_arr;cout << array[i][j] << " ", j++);
-    
+    int array[5][5];
+    create(array);
+    printArr(array);
+    cout << check(array) << endl;
     return 0;
 }
