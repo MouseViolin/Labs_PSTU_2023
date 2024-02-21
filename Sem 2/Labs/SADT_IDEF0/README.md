@@ -8,7 +8,12 @@
 1. Изучить методы составления и оформления IDEF0
 2. Составить схему на тему "Автоматизация кормушки"
 
-## Блок-схема
+# Блок-схемы
+<img width="972" alt="Pasted image 20240220170713" src="https://github.com/MouseViolin/Labs_PSTU_2023/assets/129219043/9cdfc146-7d96-43c7-b333-0bcb21614caf">
+
+![Pasted image 20240221212313](https://github.com/MouseViolin/Labs_PSTU_2023/assets/129219043/84a6bdbb-9bf5-4745-b154-bb4264884786)
+
+
 
 # Краткий анализ:
 Рассмотрим рисунок 1.
