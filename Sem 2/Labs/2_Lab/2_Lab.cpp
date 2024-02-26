@@ -9,9 +9,7 @@ int main() {
     int array[str_arr][col_arr];
     
     int num[cnt];
-    for (int i = 0; i < cnt; i++) {
-        num[i] = i+1;
-    }
+    for (int i = 0; i < cnt; num[i] = i+1, i++) ;
     
     for (int i = 0; i<str_arr; i++) {
         for (int j = 0; j < col_arr; j++) {
