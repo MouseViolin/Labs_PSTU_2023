@@ -9,8 +9,20 @@
 3. Ханойские башни
 4. Задача о расстановке 8 ферзей
 
-# Блок-схема
-О.о
+# Блок-схемы
+1.
+![3_1_gr](https://github.com/MouseViolin/Labs_PSTU_2023/assets/129219043/7155314f-7335-4c72-97b3-962639ff1091)
+
+2. 
+![3_2_gr](https://github.com/MouseViolin/Labs_PSTU_2023/assets/129219043/e70fc594-2931-427a-97ad-c86add727607)
+
+3. 
+![3_3_gr](https://github.com/MouseViolin/Labs_PSTU_2023/assets/129219043/0858ddae-46a7-4a83-bdb2-830460cc69dd)
+
+4.
+![3_4 gr](https://github.com/MouseViolin/Labs_PSTU_2023/assets/129219043/395070cf-2ab7-4dc3-8d0b-c726145b1d1c)
+
+
 # Код программ
 
 1.
