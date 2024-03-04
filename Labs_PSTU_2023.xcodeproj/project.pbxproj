@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CEE489DA2B1A881900241FFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE2321092B136D0500963711 /* main.cpp */; };
+		CE1318E52B950CF200A494CB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE2321092B136D0500963711 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,7 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CE2321092B136D0500963711 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "Sem 1/main.cpp"; sourceTree = "<group>"; };
+		CE2321092B136D0500963711 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "Sem 1/main.cpp"; sourceTree = "<group>"; usesTabs = 0; };
 		CE3F9E1C2B094ABE00E3E6AC /* Labs_PSTU_2023 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Labs_PSTU_2023; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4B51362B5FAB9900BE0BCD /* Sem 2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Sem 2"; sourceTree = "<group>"; };
 		CE4B519C2B5FAC3400BE0BCD /* Sem 1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Sem 1"; sourceTree = "<group>"; };
@@ -154,7 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEE489DA2B1A881900241FFE /* main.cpp in Sources */,
+				CE1318E52B950CF200A494CB /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +175,7 @@
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++23";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -237,7 +237,7 @@
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++23";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
