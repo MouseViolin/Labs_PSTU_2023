@@ -2,7 +2,8 @@
 >[!IMPORTANT]
 >Тема : "IDEF0"
 >Цель: Получение навыков по составлению функциональных схем SADT в соответствие с действующими стандартами IDEF0.
->YouTube: https://youtu.be/iaFBnNARtf0?si=xOs4Ur9id7AW6xnK
+>YouTube: https://youtu.be/iaFBnNARtf0?si=xOs4Ur9id7AW6xnK <img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" />
+
 
 # Проект «Автоматизация кормушки для животных»
 1. Изучить методы составления и оформления IDEF0
