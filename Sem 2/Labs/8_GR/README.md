@@ -15,6 +15,7 @@
 
 # Блок-схема
 
+![99px_ru_avatar_210611_luna__luna_iz_anime_sejlor_mun_](https://github.com/MouseViolin/Labs_PSTU_2023/assets/129219043/253ef347-5b31-480b-9582-3721e3df55f9)
 
 
 # Код программы
