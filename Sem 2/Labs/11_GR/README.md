@@ -9,7 +9,7 @@
 
 # Блок-схема
 
-
+<img src="https://i.giphy.com/wofyg8nxsWEmtR7eOK.webp" width="180" height="150"/>
 
 # Код программы
 
