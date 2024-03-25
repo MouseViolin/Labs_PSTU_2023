@@ -252,6 +252,7 @@ void showListB(ListElemB* ptr, int size){
 # Stack
 
 ```cpp
+#pragma once
 #include <iostream>
 
 
@@ -314,6 +315,7 @@ struct stack{
 # Queue
 
 ```cpp
+#pragma once
 #include <iostream>
 
 
