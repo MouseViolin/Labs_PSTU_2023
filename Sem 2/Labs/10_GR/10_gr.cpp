@@ -21,7 +21,7 @@ void showArr(int **ptr, int k, int v){
     for (int i(0); i < k; cout<<endl, i++) for (int j(0); j< v; j++) cout << ptr[i][j] << ' ';
 }
 
-void shiftArr(int **ptr, int k, int n){
+void shiftArr(int **ptr, int k, int n){ 
     for (int i(n); i<k-1; i++) {
         ptr[i] = ptr[i+1];
     }
