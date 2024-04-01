@@ -1,5 +1,5 @@
-#include "/Users/user/Documents/Labs_PSTU_2023/Sem 2/Labs/18_GR/chainMethod.h"
-#include "/Users/user/Documents/Labs_PSTU_2023/Sem 2/Labs/18_GR/openAddressing.h"
+#include "chainMethod.h"
+#include "openAddressing.h"
 
 #include <iostream>
 #include <string>

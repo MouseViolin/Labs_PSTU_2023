@@ -56,4 +56,6 @@ int main(){
     y -> showQueue();
     y -> newFirstEl();
     y -> showQueue();
+    
+    return 0;
 }
