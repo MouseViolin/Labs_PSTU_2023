@@ -1,35 +1,32 @@
-#include "/Users/user/Documents/Labs_PSTU_2023/Sem 2/Labs/18_GR/chainMethod.h"
-#include "/Users/user/Documents/Labs_PSTU_2023/Sem 2/Labs/18_GR/openAddressing.h"
-
+//Преобразовать строку таким образом, чтобы все слова в ней были напечатаны наоборот
 #include <iostream>
 #include <string>
-
 using namespace std;
-
-
-int main(){
-    cout << "Какой способ сортировки:\n"
-    << "1 - open addressing\n"
-    << "2 - the chain method\n";
-    int number;
-    cin >> number;
-    switch (number) {
-        case 1:{
-            hashTableOpAdr* people = new hashTableOpAdr;
-            people -> setHashTable(100);
-            people -> showTable();
-            break;
+// ghjk jkl;
+void reverseStr(string str) {
+  string subStr = "";
+  string newStr;
+  int count = 0;
+  for (int i = 0; i < str.size(); i++)
+  {
+    count += 1;
+    subStr += str[i];
+    if (str[i + 1] == ' ')
+    {
+        string tmp = "";
+        while (count != 0) {
+            tmp += subStr[count-1];
+            count--;
         }
-        case 2:{
-            hashTableChain* people = new hashTableChain;
-            people -> setHashTable(100);
-            people -> showTable();
-            break;
-        }
-        default:{
-            cout << "1 OR 2 -_-" << endl;
-            break;
-        }
+        newStr = tmp + ' ';
+        i++;
     }
-    
+  }
+    cout << newStr << endl;
+}
+
+int main()
+{
+    reverseStr("aaff ffaa");
+    return 0;
 }
