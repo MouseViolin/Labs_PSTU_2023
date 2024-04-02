@@ -21,9 +21,9 @@ void boyerMooreSearch(string str, string pat)
     int strSize = (int)str.size();
     int patSize = (int)pat.size();
 
-    int shift_table[CHAR_NUM];
+    int shiftTable[CHAR_NUM];
 
-    calcCharTable(str, patSize, shift_table);
+    calcCharTable(str, patSize, shiftTable);
 
     int shift = 0;
 
@@ -36,9 +36,9 @@ void boyerMooreSearch(string str, string pat)
         {
             cout << "Паттерн найден по индексу " << shift << endl;
             if (shift+patSize < strSize)
-                shift += patSize - shift_table[str[shift+patSize]];
+                shift += patSize - shiftTable[str[shift+patSize]];
             else shift++;
         }
-        else shift += max(1, j - shift_table[str[shift+j]]);
+        else shift += max(1, j - shiftTable[str[shift+j]]);
     }
 }
