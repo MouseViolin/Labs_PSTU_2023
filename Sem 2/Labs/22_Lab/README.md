@@ -19,8 +19,8 @@
 - Создать производный класс ДЛИННОЕ _ЧИСЛО(LONG), с полями. Старшая часть числа и Младшая часть числа. Переопределить операцию сложения и определить операции вычитания и умножения.
 
 # UML-диаграмма
-![45e929d2b1e8842d5b4c81cfbcd47f9b](https://github.com/MouseViolin/Labs_PSTU_2023/assets/129219043/0d53394e-af63-41f2-954f-3fb7e227dd22)
 
+<img style="display: block;-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);" src="https://i.giphy.com/ZNLtdUlnNw96XFbbd2.webp">
 
 # Код программы
 
