@@ -19,7 +19,7 @@
 
 
 # UML-диаграмма
-О.о
+<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTdwbmpnY3g2eGdpaXBudHp1ZGlmMzEyYThwdnNzc3ZkZmc0bDA4eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vVzH2XY3Y0Ar6/giphy.gif" width="180" height="150"/>
 
 # Код программы
 
