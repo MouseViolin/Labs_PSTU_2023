@@ -20,7 +20,9 @@
 > - Переопределить операцию сложения и определить операции вычитания и умножения.
 
 # UML-диаграмма
-О.о
+
+<img src="https://media1.tenor.com/m/I79LXz-U-mwAAAAC/excited-kitten-kitty.gif" width="690" height="981.7714285714286"/>
+
 
 # Код программы
 
