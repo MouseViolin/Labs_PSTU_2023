@@ -24,7 +24,7 @@
 
 # UML-диаграмма
 
-O.o
+<img src="https://media1.tenor.com/m/hcKIwOSXPfcAAAAC/ecenaztrip1.gif" width="690" height="624.0666666666667" />
 
 # Код программы
 
