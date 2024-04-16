@@ -37,7 +37,7 @@
 
 # UML-диаграмма
 
-О.о
+<img src="https://media1.tenor.com/m/KjyDoVIomkcAAAAd/social-credit-social-credit-score.gif" width="690" height="387.9518072289157"/>
 
 # Код программы
 
