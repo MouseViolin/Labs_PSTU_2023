@@ -1,3 +1,4 @@
+#pragma once
 #include <iostream>
 
 using namespace std;
@@ -67,19 +68,3 @@ istream& operator >> (istream& in, Money& a){
     return in;
 }
 
-
-int main(){
-    Money first;
-    Money second;
-    Money third;
-    
-    cin >> first;
-    cin >> second;
-    
-    cout << first << endl;
-    
-    third = first + second;
-    
-    cout << third << endl;
-    
-}

@@ -1,9 +1,17 @@
+
 #pragma once
 #include <iostream>
 
 using namespace std;
 
-class Pair{
+class Object{
+public:
+    Object(){};
+    ~Object(){};
+    virtual void Show() = 0;
+};
+
+class Pair : public Object{
 protected:
     int first;
     int second;
@@ -29,6 +37,7 @@ public:
     int getSecond(){return second;}
     void setFirst(int tmp){first = tmp;}
     void setSecond(int tmp){second = tmp;}
+    void Show(){cout << '1' << endl;};
     
     Pair& operator+(const Pair&a){
         Pair *tmp = new Pair;
@@ -48,7 +57,7 @@ public:
     friend ostream& operator << (ostream& os,const Pair& a);
     friend istream& operator >> (istream& in, Pair& a);
     
-    virtual ~Pair(){}
+    virtual ~Pair(){};
     
 };
 

@@ -1,3 +1,4 @@
+
 #pragma once
 #include <iostream>
 #include "Pair.h"
@@ -9,6 +10,7 @@ protected:
     int bigHalf, litHalf;
     
 public:
+    
     LongInt():Pair(){
         bigHalf = 0;
         litHalf = 0;
@@ -23,6 +25,7 @@ public:
         bigHalf = NoName.bigHalf;
         litHalf = NoName.litHalf;
     }
+    void Show(){cout << '2' << endl;};
     
     LongInt& operator+(const LongInt&a){
         LongInt *tmp = new LongInt;
