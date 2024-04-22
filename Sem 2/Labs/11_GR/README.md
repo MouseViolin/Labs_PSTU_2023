@@ -14,6 +14,11 @@
 
 # НедоБлок-Схемы
 
+## main.cpp
+
+![Диаграмма без названия-11_gr](https://github.com/MouseViolin/Labs_PSTU_2023/assets/129219043/8179186d-1e72-4391-ad56-825efdeae14a)
+
+
 ## oneWayList.h
 
 ![Диаграмма без названия-11 1_gr](https://github.com/MouseViolin/Labs_PSTU_2023/assets/129219043/4a2a96d9-5501-45cb-838d-beb32428be21)
