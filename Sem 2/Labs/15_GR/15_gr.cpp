@@ -14,7 +14,7 @@ void showArr(int *arr, int size){
 int main()
 {
     int arr[6]{1,3,2,-1,4,-9};
-    int countArr[6]{};
+    int countArr[6]{}; //2 1 2 1 0 0
     
     splitFile(arr, sizeof(arr)/sizeof(arr[0]), countArr);
     showArr(arr, 6);

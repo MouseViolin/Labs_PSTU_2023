@@ -1,4 +1,4 @@
-#include "/Users/user/Documents/Labs_PSTU_2023/Sem 2/Labs/24_Lab/Set.h"
+#include "Set.h"
 #include <iostream>
 
 using namespace std;
