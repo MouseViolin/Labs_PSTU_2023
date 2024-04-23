@@ -36,6 +36,10 @@
 		CE4B51362B5FAB9900BE0BCD /* Sem 2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Sem 2"; sourceTree = "<group>"; };
 		CE4B519C2B5FAC3400BE0BCD /* Sem 1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Sem 1"; sourceTree = "<group>"; };
 		CE6031CF2B13B6A8003CF710 /* cpp-target */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "cpp-target"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED6DED82BD6E77F008704EB /* Money.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Money.h; path = "Sem 2/Money.h"; sourceTree = "<group>"; };
+		CED6DED92BD6F94E008704EB /* funcForVector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = funcForVector.h; path = "Sem 2/funcForVector.h"; sourceTree = "<group>"; };
+		CED6DEDA2BD6F9D8008704EB /* funcForStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = funcForStack.h; path = "Sem 2/funcForStack.h"; sourceTree = "<group>"; };
+		CED6DEDB2BD70545008704EB /* funcForMultiset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = funcForMultiset.h; path = "Sem 2/funcForMultiset.h"; sourceTree = "<group>"; };
 		CEEE3A622BB18C7E00BF4CCB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "Sem 2/main.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +64,10 @@
 		CE3F9E132B094ABE00E3E6AC = {
 			isa = PBXGroup;
 			children = (
+				CED6DEDB2BD70545008704EB /* funcForMultiset.h */,
+				CED6DEDA2BD6F9D8008704EB /* funcForStack.h */,
+				CED6DED92BD6F94E008704EB /* funcForVector.h */,
+				CED6DED82BD6E77F008704EB /* Money.h */,
 				CEEE3A622BB18C7E00BF4CCB /* main.cpp */,
 				CE4B519C2B5FAC3400BE0BCD /* Sem 1 */,
 				CE4B51362B5FAB9900BE0BCD /* Sem 2 */,
@@ -221,6 +229,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -277,6 +287,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MTL_ENABLE_DEBUG_INFO = NO;
