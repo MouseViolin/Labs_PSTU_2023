@@ -11,6 +11,31 @@
 
 <img src="https://i.giphy.com/wofyg8nxsWEmtR7eOK.webp" width="180" height="150"/>
 
+
+# НедоБлок-Схемы
+
+## main.cpp
+
+![Диаграмма без названия-11_gr](https://github.com/MouseViolin/Labs_PSTU_2023/assets/129219043/8179186d-1e72-4391-ad56-825efdeae14a)
+
+
+## oneWayList.h
+
+![Диаграмма без названия-11 1_gr](https://github.com/MouseViolin/Labs_PSTU_2023/assets/129219043/4a2a96d9-5501-45cb-838d-beb32428be21)
+
+## bidirectionalList.h
+
+![Диаграмма без названия-11 2_gr](https://github.com/MouseViolin/Labs_PSTU_2023/assets/129219043/bbdb6863-5b3b-41cf-a268-c8a94471eb05)
+
+## stack.h
+
+![Диаграмма без названия 11 3](https://github.com/MouseViolin/Labs_PSTU_2023/assets/129219043/7a549f23-9570-4f34-9c2e-fb744c63c681)
+
+## queue.h
+
+![Диаграмма без названия-11 4_gr](https://github.com/MouseViolin/Labs_PSTU_2023/assets/129219043/175c6406-570b-46f0-860e-1b21a1bd73d1)
+
+
 # Код программы
 
 ```cpp
