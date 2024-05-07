@@ -19,7 +19,7 @@
 
 # UML-диаграмма
 
-O.o
+<img alt="6665c0d187bb358f68daa5418f33de17.gif" src="https://github.com/MouseViolin/Labs_PSTU_2023/blob/main/Sem%202/Labs/29_Lab/6665c0d187bb358f68daa5418f33de17.gif?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 kzRgrI">
 
 # Код программы
 
