@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE23D51E2BE241F0009891A1 /* list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE23D51C2BE23D85009891A1 /* list.cpp */; };
 		CEEE3A632BB18C7E00BF4CCB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEEE3A622BB18C7E00BF4CCB /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -32,14 +33,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CE23D51B2BE23D36009891A1 /* list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = list.h; path = "Sem 2/list.h"; sourceTree = "<group>"; };
+		CE23D51C2BE23D85009891A1 /* list.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = list.cpp; path = "Sem 2/list.cpp"; sourceTree = "<group>"; };
 		CE3F9E1C2B094ABE00E3E6AC /* Labs_PSTU_2023 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Labs_PSTU_2023; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4B51362B5FAB9900BE0BCD /* Sem 2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Sem 2"; sourceTree = "<group>"; };
 		CE4B519C2B5FAC3400BE0BCD /* Sem 1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Sem 1"; sourceTree = "<group>"; };
 		CE6031CF2B13B6A8003CF710 /* cpp-target */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "cpp-target"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CED6DED82BD6E77F008704EB /* Money.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Money.h; path = "Sem 2/Money.h"; sourceTree = "<group>"; };
-		CED6DED92BD6F94E008704EB /* funcForVector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = funcForVector.h; path = "Sem 2/funcForVector.h"; sourceTree = "<group>"; };
-		CED6DEDA2BD6F9D8008704EB /* funcForStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = funcForStack.h; path = "Sem 2/funcForStack.h"; sourceTree = "<group>"; };
-		CED6DEDB2BD70545008704EB /* funcForMultiset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = funcForMultiset.h; path = "Sem 2/funcForMultiset.h"; sourceTree = "<group>"; };
 		CEEE3A622BB18C7E00BF4CCB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "Sem 2/main.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,10 +63,8 @@
 		CE3F9E132B094ABE00E3E6AC = {
 			isa = PBXGroup;
 			children = (
-				CED6DEDB2BD70545008704EB /* funcForMultiset.h */,
-				CED6DEDA2BD6F9D8008704EB /* funcForStack.h */,
-				CED6DED92BD6F94E008704EB /* funcForVector.h */,
-				CED6DED82BD6E77F008704EB /* Money.h */,
+				CE23D51C2BE23D85009891A1 /* list.cpp */,
+				CE23D51B2BE23D36009891A1 /* list.h */,
 				CEEE3A622BB18C7E00BF4CCB /* main.cpp */,
 				CE4B519C2B5FAC3400BE0BCD /* Sem 1 */,
 				CE4B51362B5FAB9900BE0BCD /* Sem 2 */,
@@ -162,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE23D51E2BE241F0009891A1 /* list.cpp in Sources */,
 				CEEE3A632BB18C7E00BF4CCB /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
