@@ -7,6 +7,7 @@ using namespace std;
 //14
 //8,3,10,1,4,9,11,19,17,25,16,18,23,27
 
+// Структура узла: данные, левый/правый указатели на потомков, номер узла, начальные координаты, ссылающиеся на координаты корня
 struct Node{
     int data = 0;
     Node *left = 0;
@@ -18,40 +19,37 @@ struct Node{
 
 class Tree
 {
-
-    int arMean = 0;
+    int arMean = 0; // Среднее значение для задания в варианте
 public:
-    int count = 0;
-    Node *root = NULL;
+    int count = 0; // Общее количество узлов
+    Node *root = NULL; // Начальный узел, от которого будем растить наше деревцо
 
     void init(int x){
         root =new Node; // память под узел
-        root->data = x;
-        arMean += x;
+        root->data = x; // присваивание данных
+        arMean += x; // высчитывание
     }
 
-
+// Рекурсивное добавление узла с рекурсивным расчетом координат
     Node *addNode(int x, Node *tree, int z, int y, int h) {
         if (tree == NULL) { // Если дерева нет, то формируем корень
             tree =new Node; // память под узел
             tree->data = x;   // поле данных
-            tree->num = ++count;
+            tree->num = ++count; // Увеличение числа узлов
             tree->x = z;
             tree->y = y;
-            //tree->x = coorWayX(way);
-            //tree->y = coorWayY(way);
+            
             arMean+=x;
         }else  if (x < tree->data){   // условие добавление левого потомка
-            //way+='l';
             tree->left = addNode(x,tree->left, z-(h),y+85,h/2);
         }
         else{    // условие добавление правого потомка
-            //way+='r';
             tree->right = addNode(x,tree->right, z+(h),y+85,h/2);
         }
         return(tree);
     }
 
+//    Рекурсивное удаление узла от передаваемого указателя
     void deletNodes(Node *tree) {
         if(tree!=NULL) {
             count--;
@@ -61,7 +59,7 @@ public:
             delete tree;
         }
     }
-
+// Поиск нужного узла для удаления и передача указателя для рекурсивного удаления
     void delNodes(int data,Node *tree){
 
         if (tree != NULL) {
@@ -71,7 +69,7 @@ public:
         }
     }
 
-
+// Показ дерева (отличия для 3 видов обхода заключается в перемещении функции печати до/между/после вызова рекурсии)
     void showTree(Node *tree) {
         if (tree != NULL) {
             showTree(tree->left);
@@ -79,9 +77,9 @@ public:
             showTree(tree->right);
         }
     }
-
+// Возвращение среднего арифметического
     double arithMean(){ return arMean/(count+1);}
-
+// Добавление узлов, перечисленных в строке через ","
     void arrNodes(QString a, Node *tree){
         int cnt = 0;
         QString str = "";
