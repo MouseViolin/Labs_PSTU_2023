@@ -11,8 +11,8 @@ with open(file_path, 'r') as file:
     print("Принято сообщение из файла:", message)
 
 #  Токен  бота и chat_id, куда нужно отправить файл
-TOKEN = '7042692552:AAEjvyjq7Q7oPBshhXRHd4P9dAbXY2KCfAw'
-CHAT_ID = '1077952806'
+TOKEN = 'О.о'
+CHAT_ID = 'О.о'
 
 # Укажите путь к папке, где находятся файлы
 FOLDER_PATH = '/Users/user/Documents/Qt/arm/reports'
